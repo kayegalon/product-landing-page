@@ -1,0 +1,193 @@
+* {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+section {
+	margin-bottom: 2rem;
+}
+
+#header {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+	position: fixed;
+	background-color: #eee;
+}
+
+#header-img {
+	width: 25%;
+	margin-left: 30px;
+}
+
+#nav-bar {
+	padding-top: 5px;
+	margin-right: 30px;
+}
+
+#nav-bar a {
+	display: inline-block;
+	padding-right: 70px;
+	font-size: 1.3rem;
+	text-decoration: none;
+	color: black;
+}
+
+#form {
+	padding-top: 5rem;
+	text-align: center;
+	padding-bottom: 5rem;
+}
+
+input {
+	display: block;
+	margin: .5rem auto;
+}
+
+input[type="email"] {
+	width: 15rem;
+	height: 1.5rem;
+}
+
+input[type="submit"], .select {
+	background-color: yellow;
+	width: 7rem;
+	height: 2rem;
+}
+
+input[value="Get Started"] {
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+#features {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.feature-list {
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: 18rem;
+}
+
+.feature-list i {
+	padding-top: 20px;
+	width: 10px;
+	color: darkorange;
+}
+
+.feature-item {
+	display: flex;
+	flex-direction: column;
+	margin-left: 5rem;
+}
+
+.feature-item h3 {
+	font-size: 1.5rem;
+	margin-bottom: 0;
+}
+
+.feature-item p {
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 2rem;
+	padding-right: 10rem;
+}
+
+#how-it-works {
+	display: flex;
+	align-items: center;
+}
+
+#video {
+	width: 560px; 
+	height: 315px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pricing {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 2rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+
+.item {
+	border: 1px solid;
+	text-align: center;
+	padding-bottom: 10px;
+	height: 20rem;
+}
+
+.heading {
+	background-color: lightgray;
+	padding: 1rem;
+	margin-top: 0;
+	font-size: 1.2rem;
+}
+
+.price {
+	font-size: 1rem;
+}
+
+.select {
+	margin-top: 2rem;
+}
+
+footer {
+	background-color: #ddd;
+	width: 80%;
+	border-radius: 5px;
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+    padding: 10px;
+}
+
+@media (max-width: 800px) {
+	#header {
+		padding-bottom: 0.5rem;
+	}
+	
+	#header-img {
+		width: 40%;
+		margin-left: 30px;
+	}
+	
+	#nav-bar a {
+		font-size: 1rem;
+		padding-right: 30px;
+	}
+	
+	.feature-list {
+		margin-left: 5rem;
+	}
+	
+	.feature-item p {
+		padding-right: 1rem;
+	}
+	
+	#pricing {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 2rem;
+		align-items: center;
+	}
+	
+	.item {
+		width: 20rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+}
