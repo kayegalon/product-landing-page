@@ -209,8 +209,13 @@ footer {
 		margin-left: 1rem;
 	}
 	
-	#video, #pricing {
+	#video, .item {
 		margin-left: auto;
 		margin-right: auto;
+	}
+	
+	#pricing {
+		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 }
