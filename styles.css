@@ -189,5 +189,23 @@ footer {
 		margin-left: auto;
 		margin-right: auto;
 	}
-  
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+	#header-img {
+		margin-left: 0;
+		height: 2rem;
+	}
+	
+	#nav-bar {
+		margin-right: 0;
+	}
+	
+	#nav-bar a {
+		padding-right: .5rem;
+	}
+	
+	.feature-list {
+		margin-left: 1rem;
+	}
 }
