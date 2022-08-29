@@ -208,10 +208,11 @@ footer {
 	
 	#nav-bar {
 		margin-right: 0;
+		margin-left: .5rem;
 	}
 	
 	#nav-bar a {
-		padding-right: .2rem;
+		padding-right: 0;
 	}
 	
 	.feature-list {
